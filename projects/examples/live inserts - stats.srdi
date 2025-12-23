@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageFolders>
+    <PageFolder id="4368287c-3f61-48aa-83f8-191c9ff5e803" name="Examples">
+      <Pages>
+        <Page id="14cca88f-9e7d-442c-b096-09ff964ffaa4" name="Example 1 (selectedcategoryN)" type="LiveInsert" live-insert-page="1">
+          <Context />
+          <Properties>
+            <PageRangeMasks />
+          </Properties>
+          <Fields>
+            <Field id="7c67264f-71de-4541-8ab0-fbe01255787f" tab="Note" type="Text" value="Use the Configuration &gt; Projects &gt; Basketball &gt; Stat Categories/Splits pages to customize the formats" />
+            <Field id="0f39d893-1375-4c29-9cf6-d35d50a870fb" tab="Player Name" value="players:selected1.fullname" />
+            <Field id="ccc970e6-cc88-49b6-8b0d-c32e24e84da9" tab="Stat Category &lt;#&gt;" value="stats:selectedcategory&lt;#&gt;.full" is-array-enabled="true" array-count="3" />
+            <Field id="b3cc4bef-8ab0-46b3-8929-5c2cd888e3d5" tab="Stat Value &lt;#&gt;" value="stats:sources.players.selected1.stat&lt;#&gt;" is-array-enabled="true" array-count="3" />
+            <Field id="e6aaba57-25a7-424f-abb5-3c46fa7db52a" tab="Stat Split" value="stats:selectedsplit.full" />
+          </Fields>
+          <UserElements>
+            <UserElement id="78494fb9-9dbe-439b-a4e3-1fa6601573a4" name="players" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballPlayerFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballPlayerFilterProperties" />
+            </UserElement>
+            <UserElement id="10d48599-d2c9-4f70-9780-4725f2849e30" name="stats" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatFilterProperties" maximum-categories="3">
+                <EnabledCategories>
+                  <string>4bddb6ed-e5c1-4746-9db7-afc4c5bc50ef</string>
+                  <string>eca4e542-42b8-4fc4-be2f-6fad587edc48</string>
+                  <string>00a0b43a-2d90-41fa-8984-02cd72d6ba9f</string>
+                  <string>08a4758b-d85e-4677-95ba-11a2c52e5138</string>
+                  <string>661bf036-012a-4ee6-8425-b754b0bf9108</string>
+                  <string>1ab4c625-41a1-436d-8043-e8618caa6b54</string>
+                  <string>af66326c-3815-4b57-aea9-f130ad916ec0</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>97c0e263-ad1d-4ca3-af5c-2e9e1c997d2f</string>
+                  <string>0a97006e-94ae-4ae9-b9a5-10e185e71921</string>
+                  <string>662bacb2-6758-4090-ab1c-45a084df379d</string>
+                  <string>fc771a9a-76b2-4d68-8c21-32628a6f344d</string>
+                  <string>181ff5ef-9d49-42b0-8add-1b14eac94ac3</string>
+                  <string>885c3f65-fe55-4dd5-a7eb-213d93b6b657</string>
+                  <string>d989cb8d-9baa-47de-964c-7d65d84cec85</string>
+                  <string>35335eeb-c6b9-458d-bba2-511acb54d980</string>
+                  <string>a5788378-69e0-4e54-82c3-f28614486478</string>
+                  <string>f0e593ab-cf75-428c-a644-222648578bb9</string>
+                  <string>9fc7ab21-5f88-4769-83ae-6e370af0b759</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="148929ff-1123-43cc-ba28-167f98b5d82d" name="Example 2 (selectedcategoryN)" type="LiveInsert" live-insert-page="1">
+          <Context />
+          <Properties>
+            <PageRangeMasks>
+              <PageRangeMask mask="" />
+            </PageRangeMasks>
+          </Properties>
+          <Fields>
+            <Field id="69116b01-3f18-454b-9d25-f880dc056638" tab="Note" type="Text" value="Use the Configuration &gt; Projects &gt; Basketball &gt; Stat Categories/Splits pages to customize the formats" />
+            <Field id="cf306412-b5e3-43fb-907f-0af282f2e54f" tab="Player Name" value="players:selected1.fullname" />
+            <Field id="7305aebd-eb7e-4f75-b63a-58f38543caa6" tab="Stat Category &lt;#&gt;" value="stats:selectedcategory&lt;#&gt;.short" is-array-enabled="true" array-count="3" />
+            <Field id="80872ce7-9482-47b7-b863-b0b58b4c09da" tab="Stat Value &lt;#&gt;" value="stats:sources.players.selected1.stat&lt;#&gt;" is-array-enabled="true" array-count="3" />
+            <Field id="d098f50d-9d73-409f-90ff-51e0b959b57e" tab="Stat Split" value="stats:selectedsplit.full" />
+          </Fields>
+          <UserElements>
+            <UserElement id="" name="players" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballPlayerFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballPlayerFilterProperties" />
+            </UserElement>
+            <UserElement id="" name="stats" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatFilterProperties" maximum-categories="3">
+                <EnabledCategories>
+                  <string>4bddb6ed-e5c1-4746-9db7-afc4c5bc50ef</string>
+                  <string>eca4e542-42b8-4fc4-be2f-6fad587edc48</string>
+                  <string>00a0b43a-2d90-41fa-8984-02cd72d6ba9f</string>
+                  <string>08a4758b-d85e-4677-95ba-11a2c52e5138</string>
+                  <string>661bf036-012a-4ee6-8425-b754b0bf9108</string>
+                  <string>1ab4c625-41a1-436d-8043-e8618caa6b54</string>
+                  <string>af66326c-3815-4b57-aea9-f130ad916ec0</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>97c0e263-ad1d-4ca3-af5c-2e9e1c997d2f</string>
+                  <string>0a97006e-94ae-4ae9-b9a5-10e185e71921</string>
+                  <string>662bacb2-6758-4090-ab1c-45a084df379d</string>
+                  <string>fc771a9a-76b2-4d68-8c21-32628a6f344d</string>
+                  <string>181ff5ef-9d49-42b0-8add-1b14eac94ac3</string>
+                  <string>885c3f65-fe55-4dd5-a7eb-213d93b6b657</string>
+                  <string>d989cb8d-9baa-47de-964c-7d65d84cec85</string>
+                  <string>35335eeb-c6b9-458d-bba2-511acb54d980</string>
+                  <string>a5788378-69e0-4e54-82c3-f28614486478</string>
+                  <string>f0e593ab-cf75-428c-a644-222648578bb9</string>
+                  <string>9fc7ab21-5f88-4769-83ae-6e370af0b759</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="a9e08fab-a0e9-4ace-9c48-66007ad5f4a8" name="Example 3 (statline)" type="LiveInsert" live-insert-page="1">
+          <Context />
+          <Properties>
+            <PageRangeMasks>
+              <PageRangeMask mask="" />
+            </PageRangeMasks>
+          </Properties>
+          <Fields>
+            <Field id="0543b478-a94a-4e87-bc60-57f7921ab2e9" tab="Note 1" type="Text" value="Use the Configuration &gt; Projects &gt; Basketball &gt; Stat Categories/Splits pages to customize the formats" />
+            <Field id="13e2cf91-0710-4ec9-aa39-e884d233faaa" tab="Note 2" type="Text" value="The Stat Line separator will only be used if multiple stats are selected" />
+            <Field id="befee2ca-d007-4443-bed8-03175139ae23" tab="Player Name" value="players:selected1.fullname" />
+            <Field id="e4184390-cd1a-4bed-8056-f069d78a8ee3" tab="Stat Split" value="stats:selectedsplit.full" />
+            <Field id="19891286-f9dd-48ef-8708-7309c87d308d" tab="Stat Line" value="stats:sources.players.selected1.statline" />
+          </Fields>
+          <UserElements>
+            <UserElement id="" name="players" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballPlayerFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballPlayerFilterProperties" />
+            </UserElement>
+            <UserElement id="" name="stats" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatFilterProperties" maximum-categories="3">
+                <EnabledCategories>
+                  <string>4bddb6ed-e5c1-4746-9db7-afc4c5bc50ef</string>
+                  <string>eca4e542-42b8-4fc4-be2f-6fad587edc48</string>
+                  <string>00a0b43a-2d90-41fa-8984-02cd72d6ba9f</string>
+                  <string>08a4758b-d85e-4677-95ba-11a2c52e5138</string>
+                  <string>661bf036-012a-4ee6-8425-b754b0bf9108</string>
+                  <string>1ab4c625-41a1-436d-8043-e8618caa6b54</string>
+                  <string>af66326c-3815-4b57-aea9-f130ad916ec0</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>97c0e263-ad1d-4ca3-af5c-2e9e1c997d2f</string>
+                  <string>0a97006e-94ae-4ae9-b9a5-10e185e71921</string>
+                  <string>662bacb2-6758-4090-ab1c-45a084df379d</string>
+                  <string>fc771a9a-76b2-4d68-8c21-32628a6f344d</string>
+                  <string>181ff5ef-9d49-42b0-8add-1b14eac94ac3</string>
+                  <string>885c3f65-fe55-4dd5-a7eb-213d93b6b657</string>
+                  <string>d989cb8d-9baa-47de-964c-7d65d84cec85</string>
+                  <string>35335eeb-c6b9-458d-bba2-511acb54d980</string>
+                  <string>a5788378-69e0-4e54-82c3-f28614486478</string>
+                  <string>f0e593ab-cf75-428c-a644-222648578bb9</string>
+                  <string>9fc7ab21-5f88-4769-83ae-6e370af0b759</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="00924368-1e4c-4704-a429-9f5415561c5b" name="Example 4 (statline)" type="LiveInsert" live-insert-page="1">
+          <Context />
+          <Properties>
+            <PageRangeMasks>
+              <PageRangeMask mask="" />
+            </PageRangeMasks>
+          </Properties>
+          <Fields>
+            <Field id="7c5788c0-a8eb-402b-a8d6-d7e10bd2e9cf" tab="Note 1" type="Text" value="Use the Configuration &gt; Projects &gt; Basketball &gt; Stat Categories/Splits pages to customize the formats" />
+            <Field id="80105977-668e-4830-bc7b-782d0aa30b33" tab="Note 2" type="Text" value="The Stat Line separator will only be used if multiple stats are selected" />
+            <Field id="73a7f439-20d5-474d-8800-035253fff940" tab="Note 3" type="Text" value="This example uses a customized Stat Line Format and Separator" />
+            <Field id="6106e3bc-c439-452e-b95d-bb0af4830bb4" tab="Player Name" value="players:selected1.fullname" />
+            <Field id="b9bf0d19-a39c-4e4a-80cd-d931b332b410" tab="Stat Split" value="stats:selectedsplit.full" />
+            <Field id="9b398b10-3680-4cc7-9acc-cb2d25b4f1f3" tab="Stat Line" value="stats:sources.players.selected1.statline" />
+          </Fields>
+          <UserElements>
+            <UserElement id="" name="players" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballPlayerFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballPlayerFilterProperties" />
+            </UserElement>
+            <UserElement id="" name="stats" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatFilterProperties" maximum-categories="3" stat-line-format="{short}: {stat}" stat-line-separator=" · ">
+                <EnabledCategories>
+                  <string>4bddb6ed-e5c1-4746-9db7-afc4c5bc50ef</string>
+                  <string>eca4e542-42b8-4fc4-be2f-6fad587edc48</string>
+                  <string>00a0b43a-2d90-41fa-8984-02cd72d6ba9f</string>
+                  <string>08a4758b-d85e-4677-95ba-11a2c52e5138</string>
+                  <string>661bf036-012a-4ee6-8425-b754b0bf9108</string>
+                  <string>1ab4c625-41a1-436d-8043-e8618caa6b54</string>
+                  <string>af66326c-3815-4b57-aea9-f130ad916ec0</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>97c0e263-ad1d-4ca3-af5c-2e9e1c997d2f</string>
+                  <string>0a97006e-94ae-4ae9-b9a5-10e185e71921</string>
+                  <string>662bacb2-6758-4090-ab1c-45a084df379d</string>
+                  <string>fc771a9a-76b2-4d68-8c21-32628a6f344d</string>
+                  <string>181ff5ef-9d49-42b0-8add-1b14eac94ac3</string>
+                  <string>885c3f65-fe55-4dd5-a7eb-213d93b6b657</string>
+                  <string>d989cb8d-9baa-47de-964c-7d65d84cec85</string>
+                  <string>35335eeb-c6b9-458d-bba2-511acb54d980</string>
+                  <string>a5788378-69e0-4e54-82c3-f28614486478</string>
+                  <string>f0e593ab-cf75-428c-a644-222648578bb9</string>
+                  <string>9fc7ab21-5f88-4769-83ae-6e370af0b759</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="4a6114d8-9d7f-4891-99e0-711a0bc0276e" name="Example 5 (statlabel)" type="LiveInsert" live-insert-page="1">
+          <Context />
+          <Properties>
+            <PageRangeMasks>
+              <PageRangeMask mask="" />
+            </PageRangeMasks>
+          </Properties>
+          <Fields>
+            <Field id="e5a44722-cdab-4eee-b47d-a83866981dc7" tab="Note" type="Text" value="Use the Configuration &gt; Projects &gt; Basketball &gt; Stat Categories/Splits pages to customize the formats" />
+            <Field id="46fdcad3-72ba-463c-b261-458f58e7215e" tab="Player Name" value="players:selected1.fullname" />
+            <Field id="30e1860d-8363-47e8-8346-7ef3b5d67289" tab="Stat Label &lt;#&gt;" value="stats:sources.players.selected1.statlabel&lt;#&gt;" is-array-enabled="true" array-count="3" />
+            <Field id="7ec255e2-ce58-4858-942e-d250ef9817d0" tab="Stat Split" value="stats:selectedsplit.full" />
+          </Fields>
+          <UserElements>
+            <UserElement id="" name="players" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballPlayerFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballPlayerFilterProperties" />
+            </UserElement>
+            <UserElement id="" name="stats" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatFilterProperties" maximum-categories="3">
+                <EnabledCategories>
+                  <string>4bddb6ed-e5c1-4746-9db7-afc4c5bc50ef</string>
+                  <string>eca4e542-42b8-4fc4-be2f-6fad587edc48</string>
+                  <string>00a0b43a-2d90-41fa-8984-02cd72d6ba9f</string>
+                  <string>08a4758b-d85e-4677-95ba-11a2c52e5138</string>
+                  <string>661bf036-012a-4ee6-8425-b754b0bf9108</string>
+                  <string>1ab4c625-41a1-436d-8043-e8618caa6b54</string>
+                  <string>af66326c-3815-4b57-aea9-f130ad916ec0</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>97c0e263-ad1d-4ca3-af5c-2e9e1c997d2f</string>
+                  <string>0a97006e-94ae-4ae9-b9a5-10e185e71921</string>
+                  <string>662bacb2-6758-4090-ab1c-45a084df379d</string>
+                  <string>fc771a9a-76b2-4d68-8c21-32628a6f344d</string>
+                  <string>181ff5ef-9d49-42b0-8add-1b14eac94ac3</string>
+                  <string>885c3f65-fe55-4dd5-a7eb-213d93b6b657</string>
+                  <string>d989cb8d-9baa-47de-964c-7d65d84cec85</string>
+                  <string>35335eeb-c6b9-458d-bba2-511acb54d980</string>
+                  <string>a5788378-69e0-4e54-82c3-f28614486478</string>
+                  <string>f0e593ab-cf75-428c-a644-222648578bb9</string>
+                  <string>9fc7ab21-5f88-4769-83ae-6e370af0b759</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+      </Pages>
+    </PageFolder>
+  </PageFolders>
+  <ReportFolders />
+  <ScriptFolders />
+  <Properties />
+</ProjectContainer>

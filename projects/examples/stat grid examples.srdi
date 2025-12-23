@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageFolders>
+    <PageFolder id="37a9160d-1194-4cd3-b8c9-91317d37ff01" name="Stat Grid Examples">
+      <Pages>
+        <Page id="3543d719-ffea-4b2d-a886-eb59a2df67e7" name="Single Player - Game" type="LiveInsert">
+          <Context />
+          <Properties>
+            <PageRangeMasks />
+          </Properties>
+          <Fields>
+            <Field id="f74c4208-447c-4be6-ba67-f3ab09aef24d" tab="Name" value="statgrid:players.selected1.fullname" />
+            <Field id="31aebccd-5f6a-42cf-8ff3-591413fa5c81" tab="Split" value="statgrid:stats.selectedsplit.full" />
+            <Field id="16b40fa8-bf60-45b7-9df3-f7451497eb93" tab="Stat&lt;#&gt;" value="statgrid:stats.players.selected1.statlabel&lt;#&gt;" is-array-enabled="true" array-count="3" />
+          </Fields>
+          <UserElements>
+            <UserElement id="78f67c99-7b31-4963-b60a-27b06a32a6c9" name="statgrid" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatGrid">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatGridProperties" maximum-categories="3">
+                <EnabledCategories>
+                  <string>4bddb6ed-e5c1-4746-9db7-afc4c5bc50ef</string>
+                  <string>eca4e542-42b8-4fc4-be2f-6fad587edc48</string>
+                  <string>00a0b43a-2d90-41fa-8984-02cd72d6ba9f</string>
+                  <string>08a4758b-d85e-4677-95ba-11a2c52e5138</string>
+                  <string>661bf036-012a-4ee6-8425-b754b0bf9108</string>
+                  <string>1ab4c625-41a1-436d-8043-e8618caa6b54</string>
+                  <string>af66326c-3815-4b57-aea9-f130ad916ec0</string>
+                  <string>5b8d3921-f854-49e1-8e0f-5e55fcf8d533</string>
+                  <string>420d9d86-e91f-45e2-9142-5fcf4a214859</string>
+                  <string>69e47bbe-206d-4e84-b265-78b30403a96e</string>
+                  <string>f7c695c1-0956-4b5e-a11c-97580583f1cc</string>
+                  <string>39b980ed-03c4-4917-a8db-24cfd2c69cc3</string>
+                  <string>09f352b6-d9ea-45a2-88f5-d84fe5ab5142</string>
+                  <string>024093c1-31a2-499a-8058-9169559d6071</string>
+                  <string>65189d2c-c5e4-47c5-9d47-b7f0d5a5f484</string>
+                  <string>7f160ace-a06f-45a3-888a-4f8c3ea446c8</string>
+                  <string>bf997761-2de3-4ff7-bb0b-b7c27d5daf3d</string>
+                  <string>2bf8f497-f95e-417c-af41-351304488381</string>
+                  <string>e5c0c93d-274d-44f5-9484-8f1599618c4d</string>
+                  <string>d0647ba9-ea5a-4aee-8524-a9076e5fc600</string>
+                  <string>f6da2f0f-58d7-4e58-8a34-e6689f2ca22e</string>
+                  <string>359a3ba0-4214-4465-9a3a-9b058443a72e</string>
+                  <string>2e8dca7d-a50f-456b-b1e0-5deced2dd6a3</string>
+                  <string>b94f534a-3cd6-473e-9362-9bdab1265884</string>
+                  <string>92656cc5-2a83-4a4a-b90c-7a3eb6e140d5</string>
+                  <string>4e240967-507c-436d-8bf8-58afdba0490c</string>
+                  <string>c595e2f6-f451-42fe-bbf6-e2cf213d8fe0</string>
+                  <string>60eb6c2b-7b73-4ba9-81dd-e521a93985bf</string>
+                  <string>f066c843-5c9d-4a10-82e2-4579b05055fc</string>
+                  <string>0ec7c965-b5c4-4355-91d6-579e5c62742d</string>
+                  <string>d8b33046-2191-4f0d-b119-5c4e2b336fc5</string>
+                  <string>b58b32d8-be44-4c68-b275-acc78f634089</string>
+                  <string>3a3c8493-8573-4a02-9316-5cb4af38cd68</string>
+                  <string>47fae0c2-5c67-49d4-bca3-18718cdcf45a</string>
+                  <string>94d3465e-6b74-4b5f-ad05-dac7c9803fd8</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>97c0e263-ad1d-4ca3-af5c-2e9e1c997d2f</string>
+                  <string>0a97006e-94ae-4ae9-b9a5-10e185e71921</string>
+                  <string>662bacb2-6758-4090-ab1c-45a084df379d</string>
+                  <string>fc771a9a-76b2-4d68-8c21-32628a6f344d</string>
+                  <string>181ff5ef-9d49-42b0-8add-1b14eac94ac3</string>
+                  <string>885c3f65-fe55-4dd5-a7eb-213d93b6b657</string>
+                  <string>d989cb8d-9baa-47de-964c-7d65d84cec85</string>
+                  <string>35335eeb-c6b9-458d-bba2-511acb54d980</string>
+                  <string>a5788378-69e0-4e54-82c3-f28614486478</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="82a9a87b-8da8-411c-a153-57cdbb16e169" name="Single Player - Season/Career" type="LiveInsert">
+          <Context />
+          <Properties>
+            <PageRangeMasks>
+              <PageRangeMask mask="" />
+            </PageRangeMasks>
+          </Properties>
+          <Fields>
+            <Field id="4c9af397-cedd-4ef3-9609-da8f27318aeb" tab="Name" value="statgrid:players.selected1.fullname" />
+            <Field id="0d4080dd-a9a5-4fe6-90f1-9341a0c6090b" tab="Split" value="statgrid:stats.selectedsplit.full" />
+            <Field id="5895937c-f137-4448-9eea-f44609157f34" tab="Stat&lt;#&gt;" value="statgrid:stats.players.selected1.statlabel&lt;#&gt;" is-array-enabled="true" array-count="3" />
+          </Fields>
+          <UserElements>
+            <UserElement id="" name="statgrid" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatGrid">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatGridProperties" maximum-categories="3">
+                <EnabledCategories>
+                  <string>b5a75ac7-e4a0-4584-b051-25ecb8fd207c</string>
+                  <string>6b3fb306-93f5-4412-85ab-06c8095b0bdc</string>
+                  <string>057ab499-e706-450a-b84a-d5c1ef1cf3ad</string>
+                  <string>64c6c7cc-e6d3-46cd-a07f-e3f2a34981dd</string>
+                  <string>223af0a9-fcff-454f-85ce-a591e4cecc0a</string>
+                  <string>e72c9ce0-eebe-439c-9ac3-90e600fd7959</string>
+                  <string>d4fbc76c-79eb-451b-9a4a-8b61be4362dc</string>
+                  <string>8867158c-dc8b-49bf-b6f6-456e76c15cdf</string>
+                  <string>db3ecd98-7fb9-4381-96d3-221f525d16f9</string>
+                  <string>7b6828f1-1dd0-4b73-a49b-2fdd36187d4f</string>
+                  <string>d8bb5307-3d59-4078-b8f2-54aa11a110ad</string>
+                  <string>964fca68-434f-4b3f-a2cc-77fcf4d26166</string>
+                  <string>7999b7ff-67b8-4119-80bf-e2cd7586f207</string>
+                  <string>66439a23-6817-4d08-8bcf-2ecd191af7e5</string>
+                  <string>44553374-1f56-4fc6-9e0f-8bebbaee244b</string>
+                  <string>79848fc2-684a-470b-8b60-0ddb79c7f10e</string>
+                  <string>8f0b9ec9-ba44-4932-a2fc-1f12de04b842</string>
+                  <string>1ac2fa37-fd60-45c4-9b72-512427ea34ef</string>
+                  <string>e505771c-383c-4e97-8608-60a8293cf786</string>
+                  <string>1820bb94-f978-4f57-b59e-44af283de96b</string>
+                  <string>505edf45-0161-4321-9fe2-93aab53c4b9d</string>
+                  <string>40767a4b-d8cb-43d5-89f8-73adb6d4d464</string>
+                  <string>fdb1709a-6aa9-4528-abb4-f9ee618e0ce8</string>
+                  <string>a0924f56-595d-4a57-bdd1-fcda5be3daf4</string>
+                  <string>77a087ec-850a-4519-9d4c-f02ae77ba065</string>
+                  <string>7e5da0b9-29df-4f4d-a8bb-b5621c586d38</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>f0e593ab-cf75-428c-a644-222648578bb9</string>
+                  <string>9fc7ab21-5f88-4769-83ae-6e370af0b759</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="366cd853-1d6f-4050-992e-8e7921dd90c8" name="Single Player - Game &amp; Season" type="LiveInsert">
+          <Context />
+          <Properties>
+            <PageRangeMasks>
+              <PageRangeMask mask="" />
+            </PageRangeMasks>
+          </Properties>
+          <Fields>
+            <Field id="2e4d236b-73df-4c8c-bc9c-e47b491e6a58" tab="Name" value="game:players.selected1.fullname" />
+            <Field id="0fe93ab0-7e6d-4c5d-9b11-7cb491bbcd8d" tab="Split" value="game:stats.selectedsplit.full" />
+            <Field id="36ad318d-57ab-4e41-8cd8-757f515a1c0a" tab="Game Stat&lt;#&gt;" value="game:stats.players.selected1.statlabel&lt;#&gt;" is-array-enabled="true" array-count="3" />
+            <Field id="6493ef5e-7a8f-490e-849f-b5dfec7cc4d3" tab="Season Stat" value="Season: {season:sources.game.selected1.statlabel1}" />
+          </Fields>
+          <UserElements>
+            <UserElement id="" name="game" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatGrid">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatGridProperties" maximum-categories="3">
+                <EnabledCategories>
+                  <string>4bddb6ed-e5c1-4746-9db7-afc4c5bc50ef</string>
+                  <string>eca4e542-42b8-4fc4-be2f-6fad587edc48</string>
+                  <string>00a0b43a-2d90-41fa-8984-02cd72d6ba9f</string>
+                  <string>08a4758b-d85e-4677-95ba-11a2c52e5138</string>
+                  <string>661bf036-012a-4ee6-8425-b754b0bf9108</string>
+                  <string>1ab4c625-41a1-436d-8043-e8618caa6b54</string>
+                  <string>af66326c-3815-4b57-aea9-f130ad916ec0</string>
+                  <string>5b8d3921-f854-49e1-8e0f-5e55fcf8d533</string>
+                  <string>420d9d86-e91f-45e2-9142-5fcf4a214859</string>
+                  <string>69e47bbe-206d-4e84-b265-78b30403a96e</string>
+                  <string>f7c695c1-0956-4b5e-a11c-97580583f1cc</string>
+                  <string>39b980ed-03c4-4917-a8db-24cfd2c69cc3</string>
+                  <string>09f352b6-d9ea-45a2-88f5-d84fe5ab5142</string>
+                  <string>024093c1-31a2-499a-8058-9169559d6071</string>
+                  <string>65189d2c-c5e4-47c5-9d47-b7f0d5a5f484</string>
+                  <string>7f160ace-a06f-45a3-888a-4f8c3ea446c8</string>
+                  <string>bf997761-2de3-4ff7-bb0b-b7c27d5daf3d</string>
+                  <string>2bf8f497-f95e-417c-af41-351304488381</string>
+                  <string>e5c0c93d-274d-44f5-9484-8f1599618c4d</string>
+                  <string>d0647ba9-ea5a-4aee-8524-a9076e5fc600</string>
+                  <string>f6da2f0f-58d7-4e58-8a34-e6689f2ca22e</string>
+                  <string>359a3ba0-4214-4465-9a3a-9b058443a72e</string>
+                  <string>2e8dca7d-a50f-456b-b1e0-5deced2dd6a3</string>
+                  <string>b94f534a-3cd6-473e-9362-9bdab1265884</string>
+                  <string>92656cc5-2a83-4a4a-b90c-7a3eb6e140d5</string>
+                  <string>4e240967-507c-436d-8bf8-58afdba0490c</string>
+                  <string>c595e2f6-f451-42fe-bbf6-e2cf213d8fe0</string>
+                  <string>60eb6c2b-7b73-4ba9-81dd-e521a93985bf</string>
+                  <string>f066c843-5c9d-4a10-82e2-4579b05055fc</string>
+                  <string>0ec7c965-b5c4-4355-91d6-579e5c62742d</string>
+                  <string>d8b33046-2191-4f0d-b119-5c4e2b336fc5</string>
+                  <string>b58b32d8-be44-4c68-b275-acc78f634089</string>
+                  <string>3a3c8493-8573-4a02-9316-5cb4af38cd68</string>
+                  <string>47fae0c2-5c67-49d4-bca3-18718cdcf45a</string>
+                  <string>94d3465e-6b74-4b5f-ad05-dac7c9803fd8</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>97c0e263-ad1d-4ca3-af5c-2e9e1c997d2f</string>
+                  <string>0a97006e-94ae-4ae9-b9a5-10e185e71921</string>
+                  <string>662bacb2-6758-4090-ab1c-45a084df379d</string>
+                  <string>fc771a9a-76b2-4d68-8c21-32628a6f344d</string>
+                  <string>181ff5ef-9d49-42b0-8add-1b14eac94ac3</string>
+                  <string>885c3f65-fe55-4dd5-a7eb-213d93b6b657</string>
+                  <string>d989cb8d-9baa-47de-964c-7d65d84cec85</string>
+                  <string>35335eeb-c6b9-458d-bba2-511acb54d980</string>
+                  <string>a5788378-69e0-4e54-82c3-f28614486478</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+            <UserElement id="f3c262df-1ff5-482b-8e72-27334edc3a7b" name="season" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatFilterProperties">
+                <EnabledCategories>
+                  <string>057ab499-e706-450a-b84a-d5c1ef1cf3ad</string>
+                  <string>64c6c7cc-e6d3-46cd-a07f-e3f2a34981dd</string>
+                  <string>b5a75ac7-e4a0-4584-b051-25ecb8fd207c</string>
+                  <string>6b3fb306-93f5-4412-85ab-06c8095b0bdc</string>
+                  <string>223af0a9-fcff-454f-85ce-a591e4cecc0a</string>
+                  <string>964fca68-434f-4b3f-a2cc-77fcf4d26166</string>
+                  <string>7999b7ff-67b8-4119-80bf-e2cd7586f207</string>
+                  <string>7e5da0b9-29df-4f4d-a8bb-b5621c586d38</string>
+                  <string>77a087ec-850a-4519-9d4c-f02ae77ba065</string>
+                  <string>a0924f56-595d-4a57-bdd1-fcda5be3daf4</string>
+                  <string>fdb1709a-6aa9-4528-abb4-f9ee618e0ce8</string>
+                  <string>40767a4b-d8cb-43d5-89f8-73adb6d4d464</string>
+                  <string>505edf45-0161-4321-9fe2-93aab53c4b9d</string>
+                  <string>66439a23-6817-4d08-8bcf-2ecd191af7e5</string>
+                  <string>d8bb5307-3d59-4078-b8f2-54aa11a110ad</string>
+                  <string>e72c9ce0-eebe-439c-9ac3-90e600fd7959</string>
+                  <string>e505771c-383c-4e97-8608-60a8293cf786</string>
+                  <string>1820bb94-f978-4f57-b59e-44af283de96b</string>
+                  <string>44553374-1f56-4fc6-9e0f-8bebbaee244b</string>
+                  <string>7b6828f1-1dd0-4b73-a49b-2fdd36187d4f</string>
+                  <string>d4fbc76c-79eb-451b-9a4a-8b61be4362dc</string>
+                  <string>1ac2fa37-fd60-45c4-9b72-512427ea34ef</string>
+                  <string>8f0b9ec9-ba44-4932-a2fc-1f12de04b842</string>
+                  <string>79848fc2-684a-470b-8b60-0ddb79c7f10e</string>
+                  <string>db3ecd98-7fb9-4381-96d3-221f525d16f9</string>
+                  <string>8867158c-dc8b-49bf-b6f6-456e76c15cdf</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>f0e593ab-cf75-428c-a644-222648578bb9</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="a461422d-42f5-48d0-bc3f-6b02febd6cd3" name="Multi Player - Game" type="LiveInsert">
+          <Context />
+          <Properties>
+            <PageRangeMasks>
+              <PageRangeMask mask="" />
+            </PageRangeMasks>
+          </Properties>
+          <Fields>
+            <Field id="2b8e8f7a-d3ce-4e7a-aa81-a413e968a411" tab="Name&lt;#&gt;" value="statgrid:players.selected&lt;#&gt;.fullname" is-array-enabled="true" array-count="4" />
+            <Field id="0f89055c-cb52-460b-916f-6633fa6e6c90" tab="Split" value="statgrid:stats.selectedsplit.full" />
+            <Field id="800ada37-5404-464c-881f-29b7767befdb" tab="Player&lt;#&gt; Stat 1" value="statgrid:stats.players.selected&lt;#&gt;.statlabel1" is-array-enabled="true" array-count="4" />
+            <Field id="2b86e292-58ac-407e-b21d-9620adef3638" tab="Player&lt;#&gt; Stat 2" value="statgrid:stats.players.selected&lt;#&gt;.statlabel2" is-array-enabled="true" array-count="4" />
+            <Field id="54e0a8b3-a28f-4d01-a366-fb455f955f71" tab="Player&lt;#&gt; Stat 3" value="statgrid:stats.players.selected&lt;#&gt;.statlabel3" is-array-enabled="true" array-count="4" />
+          </Fields>
+          <UserElements>
+            <UserElement id="" name="statgrid" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatGrid">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatGridProperties" maximum-away-players="4" maximum-home-players="4" maximum-total-players="4" maximum-categories="3">
+                <EnabledCategories>
+                  <string>4bddb6ed-e5c1-4746-9db7-afc4c5bc50ef</string>
+                  <string>eca4e542-42b8-4fc4-be2f-6fad587edc48</string>
+                  <string>00a0b43a-2d90-41fa-8984-02cd72d6ba9f</string>
+                  <string>08a4758b-d85e-4677-95ba-11a2c52e5138</string>
+                  <string>661bf036-012a-4ee6-8425-b754b0bf9108</string>
+                  <string>1ab4c625-41a1-436d-8043-e8618caa6b54</string>
+                  <string>af66326c-3815-4b57-aea9-f130ad916ec0</string>
+                  <string>5b8d3921-f854-49e1-8e0f-5e55fcf8d533</string>
+                  <string>420d9d86-e91f-45e2-9142-5fcf4a214859</string>
+                  <string>69e47bbe-206d-4e84-b265-78b30403a96e</string>
+                  <string>f7c695c1-0956-4b5e-a11c-97580583f1cc</string>
+                  <string>39b980ed-03c4-4917-a8db-24cfd2c69cc3</string>
+                  <string>09f352b6-d9ea-45a2-88f5-d84fe5ab5142</string>
+                  <string>024093c1-31a2-499a-8058-9169559d6071</string>
+                  <string>65189d2c-c5e4-47c5-9d47-b7f0d5a5f484</string>
+                  <string>7f160ace-a06f-45a3-888a-4f8c3ea446c8</string>
+                  <string>bf997761-2de3-4ff7-bb0b-b7c27d5daf3d</string>
+                  <string>2bf8f497-f95e-417c-af41-351304488381</string>
+                  <string>e5c0c93d-274d-44f5-9484-8f1599618c4d</string>
+                  <string>d0647ba9-ea5a-4aee-8524-a9076e5fc600</string>
+                  <string>f6da2f0f-58d7-4e58-8a34-e6689f2ca22e</string>
+                  <string>359a3ba0-4214-4465-9a3a-9b058443a72e</string>
+                  <string>2e8dca7d-a50f-456b-b1e0-5deced2dd6a3</string>
+                  <string>b94f534a-3cd6-473e-9362-9bdab1265884</string>
+                  <string>92656cc5-2a83-4a4a-b90c-7a3eb6e140d5</string>
+                  <string>4e240967-507c-436d-8bf8-58afdba0490c</string>
+                  <string>c595e2f6-f451-42fe-bbf6-e2cf213d8fe0</string>
+                  <string>60eb6c2b-7b73-4ba9-81dd-e521a93985bf</string>
+                  <string>f066c843-5c9d-4a10-82e2-4579b05055fc</string>
+                  <string>0ec7c965-b5c4-4355-91d6-579e5c62742d</string>
+                  <string>d8b33046-2191-4f0d-b119-5c4e2b336fc5</string>
+                  <string>b58b32d8-be44-4c68-b275-acc78f634089</string>
+                  <string>3a3c8493-8573-4a02-9316-5cb4af38cd68</string>
+                  <string>47fae0c2-5c67-49d4-bca3-18718cdcf45a</string>
+                  <string>94d3465e-6b74-4b5f-ad05-dac7c9803fd8</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>97c0e263-ad1d-4ca3-af5c-2e9e1c997d2f</string>
+                  <string>0a97006e-94ae-4ae9-b9a5-10e185e71921</string>
+                  <string>662bacb2-6758-4090-ab1c-45a084df379d</string>
+                  <string>fc771a9a-76b2-4d68-8c21-32628a6f344d</string>
+                  <string>181ff5ef-9d49-42b0-8add-1b14eac94ac3</string>
+                  <string>885c3f65-fe55-4dd5-a7eb-213d93b6b657</string>
+                  <string>d989cb8d-9baa-47de-964c-7d65d84cec85</string>
+                  <string>35335eeb-c6b9-458d-bba2-511acb54d980</string>
+                  <string>a5788378-69e0-4e54-82c3-f28614486478</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="7d07a577-7391-4e0a-90c7-74e8c8147262" name="Team Comparison - Game" type="LiveInsert">
+          <Context />
+          <Properties>
+            <PageRangeMasks />
+          </Properties>
+          <Fields>
+            <Field id="c45a200d-08fb-40b1-9240-30e70e145b47" tab="Team&lt;#&gt;" value="statgrid:teams.selected&lt;#&gt;.fullname" is-array-enabled="true" array-count="2" />
+            <Field id="882908e1-1d6a-4dc5-a4c7-6313f4b4f144" tab="Split" value="statgrid:stats.selectedsplit.full" />
+            <Field id="8083ad2d-9ecb-4745-a7c7-30746831dabd" tab="Stat&lt;#&gt;" value="statgrid:stats.teams.selected&lt;#&gt;.statlabel1" is-array-enabled="true" array-count="2" />
+          </Fields>
+          <UserElements>
+            <UserElement id="a63c20cd-4bd8-42aa-97b7-35059faf1652" name="statgrid" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatGrid">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatGridProperties" team-mode="Comparison" player-mode="NoPlayers">
+                <EnabledCategories>
+                  <string>4bddb6ed-e5c1-4746-9db7-afc4c5bc50ef</string>
+                  <string>eca4e542-42b8-4fc4-be2f-6fad587edc48</string>
+                  <string>00a0b43a-2d90-41fa-8984-02cd72d6ba9f</string>
+                  <string>08a4758b-d85e-4677-95ba-11a2c52e5138</string>
+                  <string>661bf036-012a-4ee6-8425-b754b0bf9108</string>
+                  <string>1ab4c625-41a1-436d-8043-e8618caa6b54</string>
+                  <string>af66326c-3815-4b57-aea9-f130ad916ec0</string>
+                  <string>65189d2c-c5e4-47c5-9d47-b7f0d5a5f484</string>
+                  <string>e5c0c93d-274d-44f5-9484-8f1599618c4d</string>
+                  <string>2e8dca7d-a50f-456b-b1e0-5deced2dd6a3</string>
+                  <string>c595e2f6-f451-42fe-bbf6-e2cf213d8fe0</string>
+                  <string>f066c843-5c9d-4a10-82e2-4579b05055fc</string>
+                  <string>0ec7c965-b5c4-4355-91d6-579e5c62742d</string>
+                  <string>d8b33046-2191-4f0d-b119-5c4e2b336fc5</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>97c0e263-ad1d-4ca3-af5c-2e9e1c997d2f</string>
+                  <string>0a97006e-94ae-4ae9-b9a5-10e185e71921</string>
+                  <string>662bacb2-6758-4090-ab1c-45a084df379d</string>
+                  <string>fc771a9a-76b2-4d68-8c21-32628a6f344d</string>
+                  <string>181ff5ef-9d49-42b0-8add-1b14eac94ac3</string>
+                  <string>885c3f65-fe55-4dd5-a7eb-213d93b6b657</string>
+                  <string>d989cb8d-9baa-47de-964c-7d65d84cec85</string>
+                  <string>35335eeb-c6b9-458d-bba2-511acb54d980</string>
+                  <string>a5788378-69e0-4e54-82c3-f28614486478</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="32c889fa-6c78-43e5-aaa5-c9e2d11787eb" name="Team Selectable - Season" type="LiveInsert">
+          <Context />
+          <Properties>
+            <PageRangeMasks>
+              <PageRangeMask mask="" />
+            </PageRangeMasks>
+          </Properties>
+          <Fields>
+            <Field id="439c9ef7-c976-4be5-b36b-1434b043772b" tab="Team" value="statgrid:teams.selected1.fullname" array-count="2" />
+            <Field id="d29044f1-81a2-4ae4-a5d8-a501b8e127ac" tab="Split" value="statgrid:stats.selectedsplit.full" />
+            <Field id="625aa4f5-36cd-4066-8596-a4703ee896c3" tab="Stat" value="statgrid:stats.teams.selected1.statlabel1" array-count="2" />
+          </Fields>
+          <UserElements>
+            <UserElement id="" name="statgrid" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballStatGrid">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballStatGridProperties" team-mode="Selectable" player-mode="NoPlayers">
+                <EnabledCategories>
+                  <string>b5a75ac7-e4a0-4584-b051-25ecb8fd207c</string>
+                  <string>6b3fb306-93f5-4412-85ab-06c8095b0bdc</string>
+                  <string>057ab499-e706-450a-b84a-d5c1ef1cf3ad</string>
+                  <string>64c6c7cc-e6d3-46cd-a07f-e3f2a34981dd</string>
+                  <string>223af0a9-fcff-454f-85ce-a591e4cecc0a</string>
+                  <string>e72c9ce0-eebe-439c-9ac3-90e600fd7959</string>
+                  <string>d4fbc76c-79eb-451b-9a4a-8b61be4362dc</string>
+                  <string>77a087ec-850a-4519-9d4c-f02ae77ba065</string>
+                  <string>40767a4b-d8cb-43d5-89f8-73adb6d4d464</string>
+                  <string>e505771c-383c-4e97-8608-60a8293cf786</string>
+                </EnabledCategories>
+                <EnabledSplits>
+                  <string>f0e593ab-cf75-428c-a644-222648578bb9</string>
+                </EnabledSplits>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+      </Pages>
+    </PageFolder>
+  </PageFolders>
+  <ReportFolders>
+    <ReportFolder id="b0bbab79-860e-4f6e-a42b-b79871814013" name="Report Folder 1">
+      <Reports>
+        <Report id="25d21043-183e-4431-b982-9f286ba8c3f4" name="Team Test" service-id="bd7e461e-2a2f-4766-92cd-26bee1c7dbfd" service-name="Radar 360 MLB" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">1c2a4150-ed72-11ee-b01b-853fb629d281</Item>
+            <Item name="Filters">[{"name":"Season","key":"seasons","values":[{"label":"This Season","value":"Season.Current","isVariable":true}],"rangeValue1":{"label":"1946","value":"1946"},"rangeValue2":{"label":"1946","value":"1946"}}]</Item>
+          </Properties>
+        </Report>
+        <Report id="d43a7a12-eba7-4809-8429-77b1323024d7" name="Opp Test" service-id="bd7e461e-2a2f-4766-92cd-26bee1c7dbfd" service-name="Radar 360 MLB" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">1c2a4150-ed72-11ee-b01b-853fb629d281</Item>
+            <Item name="Filters">[{"name":"Season","key":"seasons","values":[{"label":"This Season","value":"Season.Current","isVariable":true}],"rangeValue1":{"label":"1946","value":"1946"},"rangeValue2":{"label":"1946","value":"1946"}}]</Item>
+          </Properties>
+        </Report>
+        <Report id="e15438ca-2604-4a02-a2ad-501b13f90fbb" name="Report 3" service-id="bd7e461e-2a2f-4766-92cd-26bee1c7dbfd" service-name="Radar 360 MLB" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">1c2a4150-ed72-11ee-b01b-853fb629d281</Item>
+          </Properties>
+        </Report>
+        <Report id="f69f7e04-68ab-4a38-9eeb-b39690698cc1" name="NBA" service-id="76ace08f-fb87-4814-8708-3ae2f8d57e03" service-name="Radar 360 NBA" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">b39fb8b0-e234-11ee-9df4-477a9c38d48c</Item>
+            <Item name="Filters">[{"name":"Season","key":"seasons","values":[{"label":"This Season","value":"Season.Current","isVariable":true}],"rangeValue1":{"label":"1946-1947","value":"1946"},"rangeValue2":{"label":"1946-1947","value":"1946"}}]</Item>
+          </Properties>
+        </Report>
+        <Report id="be74807a-aa4f-495b-b037-33a6140c6d6a" name="MLB" service-id="bd7e461e-2a2f-4766-92cd-26bee1c7dbfd" service-name="Radar 360 MLB" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">cd686a80-d5a0-11ee-b2e2-1f7f2cb8c72c</Item>
+            <Item name="Filters">[]</Item>
+          </Properties>
+        </Report>
+        <Report id="56ac7e5c-44d9-4eb6-9640-9b3d2691a958" name="Report 6" service-id="bd7e461e-2a2f-4766-92cd-26bee1c7dbfd" service-name="Radar 360 MLB" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">8de91070-75b6-11e9-9c2f-2fa34d6062d4</Item>
+            <Item name="Filters">[{"name":"Season","key":"seasons","values":[{"label":"This Season","value":"Season.Current","isVariable":true}],"rangeValue1":{"label":"1946","value":"1946"},"rangeValue2":{"label":"1946","value":"1946"}}]</Item>
+          </Properties>
+        </Report>
+        <Report id="b049a2a7-2e20-4de9-9bf3-95ee3228abf2" name="MLB Team" service-id="bd7e461e-2a2f-4766-92cd-26bee1c7dbfd" service-name="Radar 360 MLB" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">56dde210-f6a6-11ee-87e2-77280efcb2d3</Item>
+            <Item name="Filters">[{"name":"Season","key":"seasons","values":[{"label":"This Season","value":"Season.Current","isVariable":true}],"rangeValue1":{"label":"1946","value":"1946"},"rangeValue2":{"label":"1946","value":"1946"}}]</Item>
+          </Properties>
+        </Report>
+        <Report id="648e1058-faac-4017-9e1d-5a6272b663b1" name="NBA Team" service-id="76ace08f-fb87-4814-8708-3ae2f8d57e03" service-name="Radar 360 NBA" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">a5e0f230-6eb6-11ee-97c4-4723832d86a3</Item>
+            <Item name="Filters">[{"name":"Season","key":"seasons","values":[{"label":"This Season","value":"Season.Current","isVariable":true}],"rangeValue1":{"label":"1946-1947","value":"1946"},"rangeValue2":{"label":"1946-1947","value":"1946"}}]</Item>
+          </Properties>
+        </Report>
+        <Report id="e96982d6-0f73-4f1f-beb9-0e39c015d2a8" name="MLB Batter" service-id="bd7e461e-2a2f-4766-92cd-26bee1c7dbfd" service-name="Radar 360 MLB" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">cd686a80-d5a0-11ee-b2e2-1f7f2cb8c72c</Item>
+            <Item name="Filters">[{"name":"Season","key":"seasons","values":[{"label":"This Season","value":"Season.Current","isVariable":true}],"rangeValue1":{"label":"1946","value":"1946"},"rangeValue2":{"label":"1946","value":"1946"}}]</Item>
+          </Properties>
+        </Report>
+        <Report id="3d600517-edf5-496c-8849-8efe02e873d4" name="MLB Pitcher" service-id="bd7e461e-2a2f-4766-92cd-26bee1c7dbfd" service-name="Radar 360 MLB" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">cd686a80-d5a0-11ee-b2e2-1f7f2cb8c72c</Item>
+            <Item name="Filters">[{"name":"Season","key":"seasons","values":[{"label":"This Season","value":"Season.Current","isVariable":true}],"rangeValue1":{"label":"1946","value":"1946"},"rangeValue2":{"label":"1946","value":"1946"}}]</Item>
+          </Properties>
+        </Report>
+        <Report id="b7b65905-449e-4ddb-a53d-6094a147ef3f" name="Report 11" service-id="bd7e461e-2a2f-4766-92cd-26bee1c7dbfd" service-name="Radar 360 MLB" auto-refresh-on-page-read="true">
+          <Properties>
+            <Item name="ReportId">1c2a4150-ed72-11ee-b01b-853fb629d281</Item>
+            <Item name="Filters">[{"name":"Selected Game Date","key":"gameDates","values":[],"type":"SelectedGameDate","rangeValue1":{"label":"","value":""},"rangeValue2":{"label":"","value":""},"gameDateDays":7}]</Item>
+          </Properties>
+        </Report>
+      </Reports>
+    </ReportFolder>
+  </ReportFolders>
+  <ScriptFolders />
+  <Properties>
+    <Item name="BaseballInningsPitched.NoInningsPitched">0.00</Item>
+    <Item name="HittingCategories.ce6dbbe8-ceff-4214-9bb6-4d1674819249_LabelPlural" />
+    <Item name="HittingCategories.bc985229-50ae-4a69-b7f8-dc6297bf77df_LabelPlural">HR</Item>
+    <Item name="HittingCategories.bc985229-50ae-4a69-b7f8-dc6297bf77df_LabelSingle">HR</Item>
+    <Item name="RosterOverrides">[{"rosterName":"nba","entityId":"nba-203991","overrides":[]}]</Item>
+  </Properties>
+</ProjectContainer>

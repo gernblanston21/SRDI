@@ -1,0 +1,3 @@
+2025-11-06 13:41:45.88    SportradarNbaDataService Unable to update summer league schedule: Object reference not set to an instance of an object.
+2025-11-06 16:26:27.54    SportradarNbaDataService Unable to update game schedule: Response status code does not indicate success: 503 (Service Temporarily Unavailable).
+2025-11-06 16:26:27.80    SportradarNbaDataService Unable to update summer league schedule: Object reference not set to an instance of an object.

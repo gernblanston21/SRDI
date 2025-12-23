@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageFolders>
+    <PageFolder id="dfe335a9-0c9f-4006-bcc5-4f51a5bd311c" name="Page Folder 1">
+      <Pages>
+        <Page id="199b8ab7-35df-4cd8-8888-a1517933a7a3" type="LiveInsert" name="Starting Lineups" live-insert-page="1234">
+          <Context />
+          <Properties>
+            <PageRangeMasks />
+          </Properties>
+          <Fields>
+            <Field id="c40b8465-b475-4c30-858d-12542caae3f2" tab="000.TITLE" value="title:text" />
+            <Field id="b574ae3d-7f21-4e5f-83e3-4c32cfe047d9" tab="001.TEAM" value="lineups:teams.selected1.fullname" />
+            <Field id="87c1d1d4-a3a2-4d61-81f6-5980be0ce61e" tab="001.PLAYER&lt;#&gt;" type="Expression" is-array-enabled="true" expression="_formatName(&quot;lineups:lineups.selected1.player&lt;#&gt;&quot;, $[&quot;namestyle:value&quot;])" array-count="5" />
+            <Field id="6e7af376-5dfb-42a9-90ee-8b95f7ae3522" tab="001.JERSEY&lt;#&gt;" type="Expression" is-array-enabled="true" expression="$[&quot;?showjerseys:enabled&quot;] ? $[&quot;lineups:lineups.selected1.player&lt;#&gt;.jersey&quot;] : &quot; &quot;" array-count="5" />
+            <Field id="52790713-4473-4ae4-b881-42c59b00f283" tab="001.POSITION&lt;#&gt;" type="Expression" is-array-enabled="true" expression="$[&quot;?showpositions:enabled&quot;] ? $[&quot;lineups:lineups.selected1.player&lt;#&gt;.primaryposition&quot;] : &quot; &quot;" array-count="5" />
+            <Field id="a9b039e1-24cd-4b53-ad80-46cbcef9f00d" tab="002.TEAM" value="lineups:teams.selected2.fullname" />
+            <Field id="c76a9946-224e-45d5-817d-d9e4f42bf83d" tab="002.PLAYER&lt;#&gt;" type="Expression" value="lineups:lineups.selected2.player&lt;#&gt;.fullname" is-array-enabled="true" expression="_formatName(&quot;lineups:lineups.selected2.player&lt;#&gt;&quot;, $[&quot;namestyle:value&quot;])" array-count="5" />
+            <Field id="3f3fde47-6d1a-4113-a0dc-8dd831be37f5" tab="002.JERSEY&lt;#&gt;" type="Expression" is-array-enabled="true" expression="$[&quot;?showjerseys:enabled&quot;] ? $[&quot;lineups:lineups.selected2.player&lt;#&gt;.jersey&quot;] : &quot; &quot;" array-count="5" />
+            <Field id="5510bd2a-e4e7-484b-ad01-86c1b21576eb" tab="002.POSITION&lt;#&gt;" type="Expression" is-array-enabled="true" expression="$[&quot;?showpositions:enabled&quot;] ? $[&quot;lineups:lineups.selected2.player&lt;#&gt;.primaryposition&quot;] : &quot; &quot;" array-count="5" />
+          </Fields>
+          <UserElements>
+            <UserElement id="8cec48a5-5ebd-4535-851a-c8d15f4c3099" name="title" service-id="24bb3c47-cea2-4090-a299-b19e5e10563b" service-name="Default" type="Note">
+              <Properties xsi:type="Domain.UserElements.EditableNoteProperties" label="Title" default-is-enabled="Required">STARTING LINEUPS</Properties>
+            </UserElement>
+            <UserElement id="8b4b43ab-f61a-4944-9e58-dfe79397345f" name="lineups" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballLineupsFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballLineupsFilterProperties" mode="Comparison" sort-order="Position" />
+            </UserElement>
+            <UserElement id="cbb5315e-7f87-4229-a800-acc351eb34a7" name="showjerseys" service-id="24bb3c47-cea2-4090-a299-b19e5e10563b" service-name="Default" type="Option">
+              <Properties xsi:type="Domain.UserElements.OptionProperties" label="Show Jersey Numbers" />
+            </UserElement>
+            <UserElement id="b46b18bc-0867-4b1e-8f7b-b10f7fa60410" name="showpositions" service-id="24bb3c47-cea2-4090-a299-b19e5e10563b" service-name="Default" type="Option">
+              <Properties xsi:type="Domain.UserElements.OptionProperties" label="Show Positions" />
+            </UserElement>
+            <UserElement id="932bfaff-3339-4a91-b8e8-7677bf006827" name="namestyle" service-id="24bb3c47-cea2-4090-a299-b19e5e10563b" service-name="Default" type="OptionGroup">
+              <Properties xsi:type="Domain.UserElements.OptionGroupProperties" label="Name Style">
+                <Items>
+                  <OptionGroupItem label="Full Name" value="fullname" />
+                  <OptionGroupItem label="Initial + Last Name" value="initlastname" />
+                  <OptionGroupItem label="Last Name Only" value="lastname" />
+                </Items>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+        <Page id="f4147e6a-1696-42e4-a8c3-934f2b4dd08a" type="LiveInsert" name="On The Floor" live-insert-page="4321">
+          <Context />
+          <Properties>
+            <PageRangeMasks>
+              <PageRangeMask mask="" />
+            </PageRangeMasks>
+          </Properties>
+          <Fields>
+            <Field id="dc31b584-279e-448a-9594-0220711aa51e" tab="000.TITLE" value="title:text" />
+            <Field id="bdbfdcf4-410f-459c-b9ad-d59d6e92b7a1" tab="001.TEAM" value="lineups:teams.selected1.fullname" />
+            <Field id="6e608b49-f395-4943-8de6-a3794de668f9" tab="001.PLAYER&lt;#&gt;" type="Expression" is-array-enabled="true" expression="_formatName(&quot;lineups:lineups.selected1.player&lt;#&gt;&quot;, $[&quot;namestyle:value&quot;])" array-count="5" />
+            <Field id="71e34ac6-9457-4531-a398-28b0fb56ff24" tab="001.JERSEY&lt;#&gt;" type="Expression" is-array-enabled="true" expression="$[&quot;?showjerseys:enabled&quot;] ? $[&quot;lineups:lineups.selected1.player&lt;#&gt;.jersey&quot;] : &quot; &quot;" array-count="5" />
+            <Field id="8ccc0005-3ae7-4f03-bb21-88b071b1ae3f" tab="001.POSITION&lt;#&gt;" type="Expression" is-array-enabled="true" expression="$[&quot;?showpositions:enabled&quot;] ? $[&quot;lineups:lineups.selected1.player&lt;#&gt;.primaryposition&quot;] : &quot; &quot;" array-count="5" />
+          </Fields>
+          <UserElements>
+            <UserElement id="" name="title" service-id="24bb3c47-cea2-4090-a299-b19e5e10563b" service-name="Default" type="Note">
+              <Properties xsi:type="Domain.UserElements.EditableNoteProperties" label="Title" default-is-enabled="Required">ON THE FLOOR</Properties>
+            </UserElement>
+            <UserElement id="" name="lineups" service-id="63cbf323-bd83-4e79-bb39-bd9c6f95473b" service-name="Sportradar NBA" type="BasketballLineupsFilter">
+              <Properties xsi:type="Domain.Sports.Basketball.UserElements.BasketballLineupsFilterProperties" type="OnCourt" />
+            </UserElement>
+            <UserElement id="" name="showjerseys" service-id="24bb3c47-cea2-4090-a299-b19e5e10563b" service-name="Default" type="Option">
+              <Properties xsi:type="Domain.UserElements.OptionProperties" label="Show Jersey Numbers" />
+            </UserElement>
+            <UserElement id="" name="showpositions" service-id="24bb3c47-cea2-4090-a299-b19e5e10563b" service-name="Default" type="Option">
+              <Properties xsi:type="Domain.UserElements.OptionProperties" label="Show Positions" />
+            </UserElement>
+            <UserElement id="" name="namestyle" service-id="24bb3c47-cea2-4090-a299-b19e5e10563b" service-name="Default" type="OptionGroup">
+              <Properties xsi:type="Domain.UserElements.OptionGroupProperties" label="Name Style" style="List">
+                <Items>
+                  <OptionGroupItem label="Full Name" value="fullname" />
+                  <OptionGroupItem label="Initial + Last Name" value="initlastname" />
+                  <OptionGroupItem label="Last Name Only" value="lastname" />
+                </Items>
+              </Properties>
+            </UserElement>
+          </UserElements>
+        </Page>
+      </Pages>
+    </PageFolder>
+  </PageFolders>
+  <ReportFolders />
+  <ScriptFolders>
+    <ScriptFolder id="a9c66730-3b78-4c2b-9ace-666c922900af" name="Script Folder 1">
+      <Scripts>
+        <Script id="07d45d94-4031-4c5c-a599-81c1f74debb4" name="formatName" type="Helper" code="switch ($namestyle)&#xD;&#xA;{&#xD;&#xA;	case &quot;fullname&quot;: return $[$player + &quot;.fullname&quot;];&#xD;&#xA;	case &quot;initlastname&quot;: return $[$player + &quot;.firstinitial&quot;] + &quot; &quot; + $[$player + &quot;.lastname&quot;];&#xD;&#xA;	case &quot;lastname&quot;: return $[$player + &quot;.lastname&quot;];&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;// fallback to full name in case of bad data&#xD;&#xA;return $[$player + &quot;.fullname&quot;];">
+          <ScriptArguments>
+            <ScriptArgument id="f1fea067-434e-4720-972d-b82a915493e5" name="player" />
+            <ScriptArgument id="c7a4ba3b-4864-458a-91fa-91a4ac0c04b7" name="namestyle" />
+          </ScriptArguments>
+          <ScriptKeys />
+        </Script>
+      </Scripts>
+    </ScriptFolder>
+  </ScriptFolders>
+  <Properties />
+</ProjectContainer>

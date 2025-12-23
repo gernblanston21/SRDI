@@ -1,0 +1,12 @@
+2025-12-09 12:31:34.91    Intelligent Interface Client connecting...
+2025-12-09 12:31:34.92    Intelligent Interface Service started
+2025-12-09 12:31:36.71    Intelligent Interface Service stopped
+2025-12-09 12:31:36.71    Intelligent Interface Status changed: IsActive=False
+2025-12-09 12:31:36.71    Intelligent Interface Client connecting...
+2025-12-09 12:31:36.71    Intelligent Interface Service started
+2025-12-09 12:31:38.78    Intelligent Interface Status changed: IsActive=False
+2025-12-09 12:35:12.20    Intelligent Interface Service stopped
+2025-12-09 12:35:12.20    Intelligent Interface Status changed: IsActive=False
+2025-12-09 12:35:12.20    Viz Trio Socket Client connecting...
+2025-12-09 12:35:12.20    Viz Trio Socket Service started
+2025-12-09 12:35:14.25    Viz Trio Socket Status changed: IsActive=False

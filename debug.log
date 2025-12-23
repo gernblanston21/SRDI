@@ -1,0 +1,6 @@
+[1209/123405.030:WARNING:chrome_browser_cloud_management_controller.cc(87)] Could not create policy manager as CBCM is not enabled.
+[1209/123405.117:INFO:component_installer.cc(297)] Failed to verify installation for Widevine Content Decryption Module (C:\Users\reisg\AppData\Local\CEF\User Data\WidevineCdm\4.10.2830.100).: The system cannot find the path specified. (0x3)
+[1209/123425.658:WARNING:frame_impl.cc(420)] SendProcessMessage sent to detached frame 21474836481 [5,1] will be ignored
+[1209/123425.826:ERROR:shared_image_manager.cc(217)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[1209/123425.827:ERROR:shared_image_manager.cc(217)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[1209/123425.827:ERROR:shared_image_manager.cc(217)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
