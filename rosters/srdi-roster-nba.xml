@@ -8,6 +8,13 @@
         <RosterProviderReference provider-name="Radar360" id="66a3dbbb44d20021f730a420" />
       </Providers>
       <Players>
+        <BasketballRosterPlayer id="nba-1642013" first-name="Malik" last-name="Williams" jersey-number="35" position="C" primary-position="C" height="83" weight="250" birth-date="1998-08-26">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1642013" />
+            <RosterProviderReference provider-name="SportradarApi" id="1729cb6a-0881-47b0-9b12-97aca55cb290" />
+            <RosterProviderReference provider-name="Radar360" id="666b41a4f9ca52680676671b" />
+          </Providers>
+        </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1630811" first-name="Keaton" last-name="Wallace" jersey-number="2" position="G" primary-position="PG" height="75" weight="185" birth-date="1999-02-26">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1630811" />
@@ -41,13 +48,6 @@
             <RosterProviderReference provider-name="Ngss" id="1642258" />
             <RosterProviderReference provider-name="SportradarApi" id="3f34ce93-c0ad-4868-bab4-c6d83909ff78" />
             <RosterProviderReference provider-name="Radar360" id="66a3dbbd78258c06f8692970" />
-          </Providers>
-        </BasketballRosterPlayer>
-        <BasketballRosterPlayer id="nba-1642947" first-name="Eli John" last-name="Ndiaye" jersey-number="30" position="F" primary-position="PF" height="80" weight="209" birth-date="2004-06-26">
-          <Providers>
-            <RosterProviderReference provider-name="Ngss" id="1642947" />
-            <RosterProviderReference provider-name="SportradarApi" id="449da167-8e2f-4db4-a466-51e2b3f6efee" />
-            <RosterProviderReference provider-name="Radar360" id="685e1c9ee8cbe3f5739bf50b" />
           </Providers>
         </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1630168" first-name="Onyeka" last-name="Okongwu" jersey-number="17" position="F-C" primary-position="C" height="82" weight="240" birth-date="2000-12-11">
@@ -111,6 +111,13 @@
             <RosterProviderReference provider-name="Ngss" id="1629027" />
             <RosterProviderReference provider-name="SportradarApi" id="cf418e0c-de9d-438f-a1ac-3be539a56c42" />
             <RosterProviderReference provider-name="Radar360" id="666b4b976534affabacd8259" />
+          </Providers>
+        </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1642484" first-name="RayJ" last-name="Dennis" jersey-number="10" position="G" primary-position="PG" height="73" weight="180" birth-date="2001-03-30">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1642484" />
+            <RosterProviderReference provider-name="SportradarApi" id="d146629c-2584-4760-89af-e4378d7569c1" />
+            <RosterProviderReference provider-name="Radar360" id="666b36a376a807ad211d9bf8" />
           </Providers>
         </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1630552" first-name="Jalen" last-name="Johnson" jersey-number="1" position="F" primary-position="SF" height="80" weight="219" birth-date="2001-12-18">
@@ -1103,13 +1110,6 @@
             <RosterProviderReference provider-name="Radar360" id="666b50e8b93209ed76259ef6" />
           </Providers>
         </BasketballRosterPlayer>
-        <BasketballRosterPlayer id="nba-1641890" first-name="Tyler" last-name="Smith" jersey-number="21" position="F" primary-position="PF" height="81" weight="224" birth-date="2004-11-02">
-          <Providers>
-            <RosterProviderReference provider-name="Ngss" id="1641890" />
-            <RosterProviderReference provider-name="SportradarApi" id="44fe2902-0a78-440e-bbad-d28cd0308e21" />
-            <RosterProviderReference provider-name="Radar360" id="66a3dbb7c3a47e55aaf66b42" />
-          </Providers>
-        </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1627832" first-name="Fred" last-name="VanVleet" jersey-number="5" position="G" primary-position="PG" height="72" weight="197" birth-date="1994-02-25">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1627832" />
@@ -1143,6 +1143,13 @@
             <RosterProviderReference provider-name="Ngss" id="1628988" />
             <RosterProviderReference provider-name="SportradarApi" id="877eb456-2827-475f-b858-2bc00480e24f" />
             <RosterProviderReference provider-name="Radar360" id="666b4b8c6534affabacd7c84" />
+          </Providers>
+        </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1641803" first-name="Tristen" last-name="Newton" jersey-number="" position="G" primary-position="SG" height="77" weight="190" birth-date="2001-04-26">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1641803" />
+            <RosterProviderReference provider-name="SportradarApi" id="892e2e4d-b10c-47b1-8c40-25ac3c9f7166" />
+            <RosterProviderReference provider-name="Radar360" id="666b361476a807ad211d84ab" />
           </Providers>
         </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1642384" first-name="Isaiah" last-name="Crawford" jersey-number="27" position="F" primary-position="SF" height="78" weight="220" birth-date="2001-11-01">
@@ -1229,6 +1236,13 @@
             <RosterProviderReference provider-name="Radar360" id="66a3dbad8aeee5a348c9ce3f" />
           </Providers>
         </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1631102" first-name="TyTy" last-name="Washington Jr." jersey-number="14" position="G" primary-position="PG" height="75" weight="195" birth-date="2001-11-15">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1631102" />
+            <RosterProviderReference provider-name="SportradarApi" id="3054d6e1-033b-4b8d-93e5-b807ea122c75" />
+            <RosterProviderReference provider-name="Radar360" id="666b41e18216cbc82fdbb8db" />
+          </Providers>
+        </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1642949" first-name="Yanic Konan" last-name="Niederhäuser" jersey-number="14" position="C" primary-position="C" height="83" weight="242" birth-date="2003-03-14">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1642949" />
@@ -1297,13 +1311,6 @@
             <RosterProviderReference provider-name="Ngss" id="201572" />
             <RosterProviderReference provider-name="SportradarApi" id="c179fb5c-9845-4e37-aef7-6e00d97548eb" />
             <RosterProviderReference provider-name="Radar360" id="666b64df36ff64c5cacdb1b4" />
-          </Providers>
-        </BasketballRosterPlayer>
-        <BasketballRosterPlayer id="nba-1642484" first-name="RayJ" last-name="Dennis" jersey-number="7" position="G" primary-position="PG" height="73" weight="180" birth-date="2001-03-30">
-          <Providers>
-            <RosterProviderReference provider-name="Ngss" id="1642484" />
-            <RosterProviderReference provider-name="SportradarApi" id="d146629c-2584-4760-89af-e4378d7569c1" />
-            <RosterProviderReference provider-name="Radar360" id="666b36a376a807ad211d9bf8" />
           </Providers>
         </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1642353" first-name="Cam" last-name="Christie" jersey-number="12" position="G" primary-position="SG" height="77" weight="190" birth-date="2005-07-24">
@@ -1716,6 +1723,11 @@
             <RosterProviderReference provider-name="Radar360" id="666b4219b0714c8bdc86a56a" />
           </Providers>
         </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1641890" first-name="Tyler" last-name="Smith" jersey-number="21" position="F" primary-position="F" height="0" weight="0" birth-date="0000-00-00">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1641890" />
+          </Providers>
+        </BasketballRosterPlayer>
       </Players>
     </BasketballRosterTeam>
     <BasketballRosterTeam id="nba-1610612750" hometown="Minnesota" nickname="Timberwolves" city-code="MIN">
@@ -1907,6 +1919,13 @@
             <RosterProviderReference provider-name="Ngss" id="1630592" />
             <RosterProviderReference provider-name="SportradarApi" id="73d92041-1258-4f1f-8bd3-55e07407115b" />
             <RosterProviderReference provider-name="Radar360" id="666b3f07489e37061b058845" />
+          </Providers>
+        </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1643052" first-name="Chaney" last-name="Johnson" jersey-number="31" position="F" primary-position="SF" height="79" weight="220" birth-date="2002-06-20">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1643052" />
+            <RosterProviderReference provider-name="SportradarApi" id="9b3dc639-0351-47ee-8ef0-c13bc3edfc0f" />
+            <RosterProviderReference provider-name="Radar360" id="666b3646489e37061b036307" />
           </Providers>
         </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1629312" first-name="Haywood" last-name="Highsmith" jersey-number="7" position="F" primary-position="SF" height="77" weight="220" birth-date="1996-12-09">
@@ -2249,6 +2268,13 @@
             <RosterProviderReference provider-name="Radar360" id="666b41a7489e37061b064c3d" />
           </Providers>
         </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1630695" first-name="Micah" last-name="Potter" jersey-number="33" position="C" primary-position="C" height="81" weight="248" birth-date="1998-04-06">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1630695" />
+            <RosterProviderReference provider-name="SportradarApi" id="06570485-2ec5-40ab-9b50-8e4cfd7f0dc3" />
+            <RosterProviderReference provider-name="Radar360" id="666b443156d034f2184a7689" />
+          </Providers>
+        </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1630543" first-name="Isaiah" last-name="Jackson" jersey-number="22" position="F" primary-position="C" height="80" weight="205" birth-date="2002-01-10">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1630543" />
@@ -2312,13 +2338,6 @@
             <RosterProviderReference provider-name="Radar360" id="666b3f398216cbc82fdb2adc" />
           </Providers>
         </BasketballRosterPlayer>
-        <BasketballRosterPlayer id="nba-1630526" first-name="Jeremiah" last-name="Robinson-Earl" jersey-number="25" position="F" primary-position="PF" height="81" weight="240" birth-date="2000-11-03">
-          <Providers>
-            <RosterProviderReference provider-name="Ngss" id="1630526" />
-            <RosterProviderReference provider-name="SportradarApi" id="709a47f0-270b-46b0-8089-be42c4f9ebc3" />
-            <RosterProviderReference provider-name="Radar360" id="666b443baaf910202a542e1e" />
-          </Providers>
-        </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1631245" first-name="Quenton" last-name="Jackson" jersey-number="29" position="G" primary-position="PG" height="76" weight="173" birth-date="1998-09-15">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1631245" />
@@ -2331,13 +2350,6 @@
             <RosterProviderReference provider-name="Ngss" id="1630174" />
             <RosterProviderReference provider-name="SportradarApi" id="90d63a71-e4fe-411c-9773-2e74b5e1cb3b" />
             <RosterProviderReference provider-name="Radar360" id="666b468baaf910202a54ee39" />
-          </Providers>
-        </BasketballRosterPlayer>
-        <BasketballRosterPlayer id="nba-1629726" first-name="Garrison" last-name="Mathews" jersey-number="24" position="G" primary-position="SG" height="77" weight="215" birth-date="1996-10-24">
-          <Providers>
-            <RosterProviderReference provider-name="Ngss" id="1629726" />
-            <RosterProviderReference provider-name="SportradarApi" id="9866abfb-ec41-451a-9c2a-d1a47ec21a0e" />
-            <RosterProviderReference provider-name="Radar360" id="666b48f5d1b3464d33910d68" />
           </Providers>
         </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1642880" first-name="Kam" last-name="Jones" jersey-number="7" position="G" primary-position="SG" height="76" weight="200" birth-date="2002-02-25">
@@ -2384,13 +2396,6 @@
         <RosterProviderReference provider-name="Radar360" id="66a3dbb944d20021f730a400" />
       </Providers>
       <Players>
-        <BasketballRosterPlayer id="nba-1642282" first-name="Hunter" last-name="Sallis" jersey-number="45" position="G" primary-position="SG" height="76" weight="185" birth-date="2003-03-26">
-          <Providers>
-            <RosterProviderReference provider-name="Ngss" id="1642282" />
-            <RosterProviderReference provider-name="SportradarApi" id="025425f1-19b0-495f-b2db-8556b253c8e4" />
-            <RosterProviderReference provider-name="Radar360" id="666b366976a807ad211d8a56" />
-          </Providers>
-        </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1642845" first-name="VJ" last-name="Edgecombe" jersey-number="77" position="G" primary-position="SG" height="76" weight="180" birth-date="2005-07-30">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1642845" />
@@ -2496,6 +2501,13 @@
             <RosterProviderReference provider-name="Radar360" id="666b64d9438b4da363541203" />
           </Providers>
         </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1630699" first-name="MarJon" last-name="Beauchamp" jersey-number="0" position="F" primary-position="SF" height="79" weight="199" birth-date="2000-10-12">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1630699" />
+            <RosterProviderReference provider-name="SportradarApi" id="fc036630-debc-44bf-9663-03c3fbd3045c" />
+            <RosterProviderReference provider-name="Radar360" id="66a3dbb7c3a47e55aaf66b02" />
+          </Providers>
+        </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1631133" first-name="Jabari" last-name="Walker" jersey-number="33" position="F" primary-position="SF" height="79" weight="237" birth-date="2002-07-30">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1631133" />
@@ -2519,7 +2531,7 @@
             <RosterProviderReference provider-name="Radar360" id="666b4466c8ccadc10dd3b3d7" />
           </Providers>
         </BasketballRosterPlayer>
-        <BasketballRosterPlayer id="nba-1631123" first-name="Jamaree" last-name="Bouyea" jersey-number="15" position="G" primary-position="PG" height="74" weight="180" birth-date="1999-06-27">
+        <BasketballRosterPlayer id="nba-1631123" first-name="Jamaree" last-name="Bouyea" jersey-number="17" position="G" primary-position="PG" height="74" weight="180" birth-date="1999-06-27">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1631123" />
             <RosterProviderReference provider-name="SportradarApi" id="18c4bd7c-e293-4c0a-95d4-5e9983d301b3" />
@@ -2936,13 +2948,6 @@
             <RosterProviderReference provider-name="Radar360" id="666b41e28216cbc82fdbb98a" />
           </Providers>
         </BasketballRosterPlayer>
-        <BasketballRosterPlayer id="nba-1642434" first-name="Riley" last-name="Minix" jersey-number="27" position="F" primary-position="SF" height="79" weight="230" birth-date="2000-09-22">
-          <Providers>
-            <RosterProviderReference provider-name="Ngss" id="1642434" />
-            <RosterProviderReference provider-name="SportradarApi" id="5efce548-15a0-4a8c-9f63-5f5db4851696" />
-            <RosterProviderReference provider-name="Radar360" id="666b36af489e37061b038174" />
-          </Providers>
-        </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1630322" first-name="Lindy" last-name="Waters III" jersey-number="43" position="F" primary-position="SG" height="77" weight="210" birth-date="1997-07-28">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1630322" />
@@ -2990,6 +2995,13 @@
             <RosterProviderReference provider-name="Ngss" id="1629162" />
             <RosterProviderReference provider-name="SportradarApi" id="bde7f42e-7296-453d-bcba-cac6fad2d03f" />
             <RosterProviderReference provider-name="Radar360" id="666b4b8d6534affabacd7d07" />
+          </Providers>
+        </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1630649" first-name="Stanley" last-name="Umude" jersey-number="17" position="G" primary-position="SG" height="78" weight="210" birth-date="1999-04-12">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1630649" />
+            <RosterProviderReference provider-name="SportradarApi" id="c2a8d4de-dee9-4999-944d-5e0797b45480" />
+            <RosterProviderReference provider-name="Radar360" id="666b420f894d2be53300f9ce" />
           </Providers>
         </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-203084" first-name="Harrison" last-name="Barnes" jersey-number="40" position="F" primary-position="PF" height="79" weight="225" birth-date="1992-05-30">
@@ -3304,6 +3316,11 @@
             <RosterProviderReference provider-name="Radar360" id="666b6236e0d8a05c7cb72610" />
           </Providers>
         </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1628964" first-name="Mo" last-name="Bamba" jersey-number="4" position="C" primary-position="C" height="0" weight="0" birth-date="0000-00-00">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1628964" />
+          </Providers>
+        </BasketballRosterPlayer>
       </Players>
     </BasketballRosterTeam>
     <BasketballRosterTeam id="nba-1610612762" hometown="Utah" nickname="Jazz" city-code="UTA">
@@ -3565,6 +3582,13 @@
             <RosterProviderReference provider-name="Ngss" id="1630590" />
             <RosterProviderReference provider-name="SportradarApi" id="df62b7c5-faaa-4f37-a716-b7e034aa03eb" />
             <RosterProviderReference provider-name="Radar360" id="666b41d9be5f78d437e12afd" />
+          </Providers>
+        </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1631132" first-name="Christian" last-name="Koloko" jersey-number="10" position="C" primary-position="C" height="83" weight="225" birth-date="2000-06-20">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1631132" />
+            <RosterProviderReference provider-name="SportradarApi" id="ed643452-917d-40c5-badd-2e72958b059c" />
+            <RosterProviderReference provider-name="Radar360" id="666b41aaf9ca526806766a88" />
           </Providers>
         </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1642377" first-name="Jaylen" last-name="Wells" jersey-number="0" position="F" primary-position="SG" height="79" weight="206" birth-date="2003-08-26">
@@ -3916,13 +3940,6 @@
             <RosterProviderReference provider-name="Radar360" id="666b4bc7aaf910202a563ecc" />
           </Providers>
         </BasketballRosterPlayer>
-        <BasketballRosterPlayer id="nba-1641809" first-name="Drew" last-name="Peterson" jersey-number="9" position="F" primary-position="PF" height="80" weight="205" birth-date="1999-11-09">
-          <Providers>
-            <RosterProviderReference provider-name="Ngss" id="1641809" />
-            <RosterProviderReference provider-name="SportradarApi" id="82c98130-ca75-4fad-be40-59133af1027e" />
-            <RosterProviderReference provider-name="Radar360" id="666b3f06489e37061b0587c6" />
-          </Providers>
-        </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1642354" first-name="KJ" last-name="Simpson" jersey-number="25" position="G" primary-position="PG" height="74" weight="189" birth-date="2002-08-08">
           <Providers>
             <RosterProviderReference provider-name="Ngss" id="1642354" />
@@ -3935,6 +3952,13 @@
             <RosterProviderReference provider-name="Ngss" id="203486" />
             <RosterProviderReference provider-name="SportradarApi" id="9570a938-324f-40e8-92dd-8a4fcf4a953b" />
             <RosterProviderReference provider-name="Radar360" id="666b58503ef1f62f969bafef" />
+          </Providers>
+        </BasketballRosterPlayer>
+        <BasketballRosterPlayer id="nba-1641790" first-name="PJ" last-name="Hall" jersey-number="16" position="C" primary-position="C" height="80" weight="245" birth-date="2002-02-21">
+          <Providers>
+            <RosterProviderReference provider-name="Ngss" id="1641790" />
+            <RosterProviderReference provider-name="SportradarApi" id="abe7b1d1-e992-4ab5-8f0c-8a0d7747ca1f" />
+            <RosterProviderReference provider-name="Radar360" id="666b3664b93209ed761ed674" />
           </Providers>
         </BasketballRosterPlayer>
         <BasketballRosterPlayer id="nba-1628970" first-name="Miles" last-name="Bridges" jersey-number="0" position="F" primary-position="SF" height="79" weight="225" birth-date="1998-03-21">
