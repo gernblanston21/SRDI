@@ -42,3 +42,25 @@
 2026-01-06 15:03:35.06    RosterManager Updating mlb roster...
 2026-01-06 15:03:35.51    RosterManager mlb roster updated
 2026-01-06 15:03:35.54    RosterManager Loaded mlb roster: 32 teams, 1177 players
+2026-01-06 15:14:56.65    UiThreadManager Initialized
+2026-01-06 15:14:56.65    PluginManager Initializing plugins...
+2026-01-06 15:14:56.65    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.SportradarNba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-06 15:14:56.66    PluginManager Initializing plugin: Sportradar NBA Plugin
+2026-01-06 15:14:56.66    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.SportradarMlb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-06 15:14:56.67    PluginManager Initializing plugin: Sportradar MLB Plugin
+2026-01-06 15:14:56.67    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.SportradarReports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-06 15:14:56.67    PluginManager Initializing plugin: Sportradar Reports Plugin
+2026-01-06 15:14:56.67    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.OnAir, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-06 15:14:56.67    PluginManager Initializing plugin: OnAir Plugin
+2026-01-06 15:14:56.91    RosterManager Updating nba roster...
+2026-01-06 15:14:57.39    RosterManager nba roster updated
+2026-01-06 15:14:57.41    RosterManager Loaded nba roster: 40 teams, 543 players
+2026-01-06 15:14:57.41    RosterManager Updating wnba roster...
+2026-01-06 15:14:57.56    RosterManager wnba roster updated
+2026-01-06 15:14:57.56    RosterManager Loaded wnba roster: 0 teams, 0 players
+2026-01-06 15:14:57.56    RosterManager Updating nbdl roster...
+2026-01-06 15:14:57.83    RosterManager nbdl roster updated
+2026-01-06 15:14:57.83    RosterManager Loaded nbdl roster: 31 teams, 416 players
+2026-01-06 15:14:57.85    RosterManager Updating mlb roster...
+2026-01-06 15:14:58.26    RosterManager mlb roster updated
+2026-01-06 15:14:58.28    RosterManager Loaded mlb roster: 32 teams, 1177 players
