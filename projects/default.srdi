@@ -3,5 +3,37 @@
   <PageFolders />
   <ReportFolders />
   <ScriptFolders />
-  <Properties />
+  <Properties>
+    <Item name="Formatting.PlayerFirstNameStyle">Upper</Item>
+    <Item name="Formatting.PlayerLastNameStyle">Upper</Item>
+    <Item name="Formatting.TeamHometownStyle">Upper</Item>
+    <Item name="Formatting.TeamNicknameStyle">Upper</Item>
+    <Item name="BasketballPeriodFormatting.QuarterShortStyle">{nn}</Item>
+    <Item name="BasketballPeriodFormatting.QuarterFullStyle">{nn} Quarter</Item>
+    <Item name="BasketballPeriodFormatting.HalfShortStyle">{nn}</Item>
+    <Item name="BasketballPeriodFormatting.HalfFullStyle">{nn} Half</Item>
+    <Item name="BasketballPeriodFormatting.PeriodShortStyle">{nn}</Item>
+    <Item name="BasketballPeriodFormatting.PeriodFullStyle">{nn} Period</Item>
+    <Item name="BasketballPeriodFormatting.OvertimeShortStyle">OT</Item>
+    <Item name="BasketballPeriodFormatting.OvertimeFullStyle">Overtime</Item>
+    <Item name="BasketballPeriodFormatting.MultiOvertimeShortStyle">{n}OT</Item>
+    <Item name="BasketballPeriodFormatting.MultiOvertimeFullStyle">{nn} Overtime</Item>
+    <Item name="BasketballPeriodFormatting.QuarterClockShortStyle">{nn} - {clock}</Item>
+    <Item name="BasketballPeriodFormatting.QuarterClockFullStyle">{nn} Quarter - {clock}</Item>
+    <Item name="BasketballPeriodFormatting.HalfClockShortStyle">{nn} - {clock}</Item>
+    <Item name="BasketballPeriodFormatting.HalfClockFullStyle">{nn} Half - {clock}</Item>
+    <Item name="BasketballPeriodFormatting.PeriodClockShortStyle">{nn} - {clock}</Item>
+    <Item name="BasketballPeriodFormatting.PeriodClockFullStyle">{nn} Period - {clock}</Item>
+    <Item name="BasketballPeriodFormatting.OvertimeClockShortStyle">OT - {clock}</Item>
+    <Item name="BasketballPeriodFormatting.OvertimeClockFullStyle">Overtime - {clock}</Item>
+    <Item name="BasketballPeriodFormatting.MultiOvertimeClockShortStyle">{n}OT - {clock}</Item>
+    <Item name="BasketballPeriodFormatting.MultiOvertimeClockFullStyle">{nn} Overtime - {clock}</Item>
+    <Item name="Formatting.DayTimeStyle">Today</Item>
+    <Item name="Formatting.NightTimeStyle">Tonight</Item>
+    <Item name="Formatting.DayNightTimeCutoffStyle">17:00</Item>
+    <Item name="Formatting.DayNightTimeAuto">False</Item>
+    <Item name="RosterOverrides">[{"rosterName":"nba","entityId":"nba-203903","overrides":[{"name":"Alias","value":"99"},{"name":"FirstName","value":"Jordy"},{"name":"LastName","value":"McClarkson"},{"name":"LastNameFormatted","value":"McCLARKSON"}]},{"rosterName":"nba","entityId":"nba-1628988","overrides":[]}]</Item>
+    <Item name="BasketballStatsFormatting.FieldGoalsPercentageFormat">0.0%%</Item>
+    <Item name="BasketballStatsFormatting.PointsAverageFormat">0.0</Item>
+  </Properties>
 </ProjectContainer>
