@@ -1,0 +1,44 @@
+2026-01-16 10:39:00.67    UiThreadManager Initialized
+2026-01-16 10:39:01.14    PluginManager Initializing plugins...
+2026-01-16 10:39:01.14    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.SportradarNba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-16 10:39:01.33    PluginManager Initializing plugin: Sportradar NBA Plugin
+2026-01-16 10:39:01.34    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.SportradarMlb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-16 10:39:01.35    PluginManager Initializing plugin: Sportradar MLB Plugin
+2026-01-16 10:39:01.35    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.SportradarReports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-16 10:39:01.35    PluginManager Initializing plugin: Sportradar Reports Plugin
+2026-01-16 10:39:01.35    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.OnAir, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-16 10:39:01.41    PluginManager Initializing plugin: OnAir Plugin
+2026-01-16 10:39:05.83    RosterManager Updating nba roster...
+2026-01-16 10:39:06.64    RosterManager nba roster updated
+2026-01-16 10:39:06.69    RosterManager Loaded nba roster: 40 teams, 538 players
+2026-01-16 10:39:06.69    RosterManager Updating wnba roster...
+2026-01-16 10:39:06.95    RosterManager wnba roster updated
+2026-01-16 10:39:06.95    RosterManager Loaded wnba roster: 15 teams, 164 players
+2026-01-16 10:39:06.95    RosterManager Updating nbdl roster...
+2026-01-16 10:39:07.20    RosterManager nbdl roster updated
+2026-01-16 10:39:07.22    RosterManager Loaded nbdl roster: 31 teams, 430 players
+2026-01-16 10:39:07.25    RosterManager Updating mlb roster...
+2026-01-16 10:39:07.59    RosterManager mlb roster updated
+2026-01-16 10:39:07.61    RosterManager Loaded mlb roster: 32 teams, 1187 players
+2026-01-16 10:50:32.92    UiThreadManager Initialized
+2026-01-16 10:50:32.92    PluginManager Initializing plugins...
+2026-01-16 10:50:32.92    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.SportradarNba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-16 10:50:32.94    PluginManager Initializing plugin: Sportradar NBA Plugin
+2026-01-16 10:50:32.94    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.SportradarMlb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-16 10:50:32.94    PluginManager Initializing plugin: Sportradar MLB Plugin
+2026-01-16 10:50:32.95    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.SportradarReports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-16 10:50:32.95    PluginManager Initializing plugin: Sportradar Reports Plugin
+2026-01-16 10:50:32.95    PluginManager Loading plugin assembly: SportsDataInterface.Plugins.OnAir, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-16 10:50:32.96    PluginManager Initializing plugin: OnAir Plugin
+2026-01-16 10:50:37.21    RosterManager Updating nba roster...
+2026-01-16 10:50:37.69    RosterManager nba roster updated
+2026-01-16 10:50:37.70    RosterManager Loaded nba roster: 40 teams, 538 players
+2026-01-16 10:50:37.70    RosterManager Updating wnba roster...
+2026-01-16 10:50:37.92    RosterManager wnba roster updated
+2026-01-16 10:50:37.92    RosterManager Loaded wnba roster: 15 teams, 164 players
+2026-01-16 10:50:37.92    RosterManager Updating nbdl roster...
+2026-01-16 10:50:38.18    RosterManager nbdl roster updated
+2026-01-16 10:50:38.20    RosterManager Loaded nbdl roster: 31 teams, 430 players
+2026-01-16 10:50:38.21    RosterManager Updating mlb roster...
+2026-01-16 10:50:38.58    RosterManager mlb roster updated
+2026-01-16 10:50:38.61    RosterManager Loaded mlb roster: 32 teams, 1187 players
